@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap');
+
+.footer {
+  background-color: #4c090e;
+  padding: 6% 15%;
+  display: flex;
+  justify-content: start;
+  gap: 50px;
+}
+
+.footer-info {
+  display: flex;
+  flex-direction: column;
+  color: #d8d5d2;
+  font-family: 'Montserrat';
+  font-size: 19px;
+  font-weight: 300;
+  flex-grow: 1;
+}
+
+.footer-info-up {
+  display: flex;
+  justify-content: start;
+}
+
+.cesver-address {
+  list-style: none;
+  border-right: 1px solid #d8d5d2;
+  flex-grow: .4;
+}
+
+.oculto {
+  color: #4c090e;
+}
+
+.cesver-phone {
+  font-weight: 600;
+}
+
+.cesver-rvoe {
+  list-style: none;
+  flex-shrink: 0;
+  margin-left: 6%;
+}
+
+.footer-info-down {
+  display: flex;
+  justify-content: start;
+  margin-top: 20px;
+  border-top: 1px solid #d8d5d2;
+  padding-top: 20px;
+}
+
+.copy-right {
+  flex-grow: .4;
+}
+
+.social-networks {
+  list-style: none;
+  flex-shrink: 0;
+  margin-left: 9%;
+  display: flex;
+  gap: 15%
+}
+
+.cesver-logo {
+  flex-shrink: 0;
+}

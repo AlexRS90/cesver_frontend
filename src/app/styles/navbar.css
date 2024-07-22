@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'acumin-pro-condensed';
+    src: url('../styles/acumin-pro-condensed-regular.otf'), format('truetype');
+}
+
+.navbar {
+  height: 200px;
+  align-content: center;
+}
+
+.navbar-ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 5em 0 5em;
+  list-style: none;
+}
+
+.img-logo {
+  max-width: 100%;
+  height: auto;
+}
+
+.menu-options {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+  margin-bottom: 1%;
+}
+
+.navbar-font {
+  font-family: 'acumin-pro-condensed';
+  font-size: 30px;
+  color: #101349;
+  margin-bottom: 1%;
+}
