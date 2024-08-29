@@ -30,8 +30,8 @@ export default function About() {
           </p>
         </section>
         <button onClick={()=> carrusel()} className="button-right">
-          <svg class="w-6 h-6 text-gray-800 dark:text-white right-arrow" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="150" height="200" fill="none" viewBox="0 0 24 24">
-            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m9 5 7 7-7 7"/>
+          <svg className="w-6 h-6 text-gray-800 dark:text-white right-arrow" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="150" height="200" fill="none" viewBox="0 0 24 24">
+            <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="m9 5 7 7-7 7"/>
           </svg>
         </button>
       </article>

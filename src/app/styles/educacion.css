@@ -1,0 +1,128 @@
+@font-face {
+    font-family: 'geomainst-medium';
+    src: url('../styles/Geomanist-Medium.ttf'), format('truetype');
+}
+
+@font-face {
+    font-family: 'acumin-pro-condensed';
+    src: url('../styles/acumin-pro-condensed-regular.otf'), format('truetype');
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap');
+
+.educacion-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #d8d5d2;
+  color: #101349;
+  height: 180px;
+  font-family: 'geomainst-medium';
+  font-size: 86px;
+  font-weight: 300;
+}
+
+.cards-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 8%;
+  margin: 5%;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 25px;
+}
+
+.card-image {
+  width: 146px;
+  height: 142px;
+}
+
+.card-name {
+  color: #4c090e;
+  width: 185px;
+  text-align: center;
+}
+
+.rvoe-label {
+  background-color: #cdc1ac;
+  border-radius: 20px;
+  padding: 8px;
+  font-size: 12px;
+}
+
+.button-ver {
+  background-color: #99121c;
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 65px;
+  font-family: 'acumin-pro-condensed';
+  font-size: 20px;
+}
+
+.button-ver:hover {
+  background-color: #fff;
+  color: #99121c;
+  border: 2px solid #99121c;
+  cursor: pointer;
+}
+
+.body-container {
+  display: flex;
+  margin: 7% 10%;
+  gap: 10%;
+}
+
+.lateral-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+.info-container {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.educacion-titulo {
+  color: #101349;
+  font-family: 'geomainst-medium';
+  font-size: 66px;
+  font-weight: 100;
+}
+
+.button-mapa {
+  width: fit-content;
+  padding: 5px 20px;
+  border-radius: 8px;
+}
+
+.educacion-slogan {
+  margin-top: 30px ;
+  color: #101349;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+  font-weight: 200;
+  text-align: justify;
+}
+
+.info-bullets {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  list-style-image: url("./images/bullet.png");
+  margin-top: 30px;
+  color: #101349;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+  font-weight: 200;
+  gap: 20px;
+}
