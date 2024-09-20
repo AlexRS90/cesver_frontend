@@ -124,7 +124,60 @@ const EDUCACION = [
   },
 ];
 
+const SERVICIO_SOCIAL = [
+  {
+    step: 1,
+    text: 'Anotar en Control Escolar los datos a quién va dirigida la carta de presentación.',
+    button_text: '',
+    url: '',
+  },
+  {
+    step: 2,
+    text: 'Llevar la carta de presentación a la institución receptora para que te expidan tu carta de aceptación.',
+    button_text: 'FORMATO I',
+    url: '',
+  },
+  {
+    step: 3,
+    text: 'Entregar en Control Escolar el formato 1 y el registro de servicio social (Formato II) antes de cinco días hábiles a partir de la fecha de expedición de tu carta de aceptación.',
+    button_text: 'FORMATO II',
+    url: '',
+  },
+  {
+    step: 4,
+    text: 'Llevar y entregar en Control Escolar un registro mensual de tus reportes.',
+    button_text: 'FORMATO III',
+    url: '',
+  },
+  {
+    step: 5,
+    text: 'Entregar el formato IV antes de cinco días hábiles de la fecha de expedición. (Carta de conclusión).',
+    button_text: 'FORMATO IV',
+    url: '',
+  },
+  {
+    step: 6,
+    text: 'Si se libera el Servicio Social por trabajo (Instituciones Públicas): Deberás entregar en Control Escolar una carta laboral con una antiguedad como mínimo de un año así como los dos últimos comprobantes de nómina originales y dos copias. Si eres prestador de servicios en el CONAFE pregunta en el Control Escolar.',
+    button_text: '',
+    url: ''
+  },
+  {
+    step: 7,
+    text: 'Si se libera el Servicio Social por edad: (50 años en adelante): Deberás entregar en Control Escolar tu acta de nacimiento, original y dos copias. Si se libera el servicio social por discapacidad, deberás presentar un certificado médico de una institución pública.',
+    button_text: '',
+    url: '',
+  },
+  {
+    step: 8,
+    text: 'Por último deberás estar inscrito en el penúltimo semestre / cuatrimestre de tu licenciatura y deberás estar al corriente en tus pagos de colegiaturas y reinscripciones.',
+    button_text: '',
+    url: '',
+  },
+];  
+
+
 export {
   ABOUT,
   EDUCACION,
+  SERVICIO_SOCIAL,
 };

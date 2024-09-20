@@ -14,7 +14,7 @@ export default function About() {
   }
   return(
     <section>
-      <figure 
+      <figure
         className={`about-img img-${ABOUT[about].image}`}
       />  
       <article className="about-container">

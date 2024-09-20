@@ -1,0 +1,94 @@
+@font-face {
+    font-family: 'geomainst-medium';
+    src: url('../styles/Geomanist-Medium.ttf'), format('truetype');
+}
+
+@font-face {
+  font-family: 'acumin-pro-condensed';
+  src: url('../styles/acumin-pro-condensed-regular.otf'), format('truetype');
+}
+
+.banner {
+  height: 180px;
+  background-color: #86d3e9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'geomainst-medium', sans-serif;
+  font-size: 86px;
+  font-weight: 300;
+  color: #101349;
+}
+
+.menu-buttons-container {
+  display: flex;
+  justify-content: center;
+  gap: 10%;
+  list-style: none;
+  padding: 6% 0;
+  background-color: #eaeaea;
+}
+
+.button-cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+.menu-button {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: none;
+  cursor: pointer;
+}
+
+.inscripcion-off {
+  background-image: url('../styles/images/Inscripcion-off.png');
+}
+
+.constancias-off {
+  background-image: url('../styles/images/Constancias-off.png');
+}
+
+.finanzas-off {
+  background-image: url('../styles/images/Finanzas-off.png');
+}
+
+.servicio-social-off {
+  background-image: url('../styles/images/Servicios-off.png');
+}
+
+.inscripcion-on {
+  background-image: url('../styles/images/Inscripcion-on.png');
+}
+
+.constancias-on {
+  background-image: url('../styles/images/Constancias-on.png');
+}
+  
+.finanzas-on {
+  background-image: url('../styles/images/Finanzas-on.png');
+}
+  
+.servicio-social-on {
+  background-image: url('../styles/images/Servicio-on.png');
+}
+
+.button-text {
+  color: #4c090e;
+  font-family: 'geomainst-medium', sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.on {
+  opacity: 1;
+}
+
+.off {
+  opacity: 0.5;
+}
