@@ -1,0 +1,89 @@
+@font-face {
+  font-family: 'geomainst-light';
+  src: url('../styles/Geomanist-Light-1.ttf'), format('truetype');
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap');
+
+.general-container-contacto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.titulo-contacto {
+  font-family: 'geomainst-light', sans-serif;
+  font-size: 74px;
+  color: #99121c;
+  margin: 5% 10%;
+}
+
+.contacto-container {
+  display: flex;
+  width: 47%;
+  justify-content: space-between;
+  margin-bottom: 5%;
+}
+
+.info-list {
+  list-style: none;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+  font-weight: 200;
+  color: #101349;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.span-contacto {
+  font-size: 19px;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.input-text {
+  font-family: 'Montserrat', sans-serif;
+  padding: 10px;
+  width: 20rem;
+}
+
+.input-message {
+  font-family: 'Montserrat', sans-serif;
+  padding: 10px;
+  height: 5rem;
+}
+
+.button-enviar {
+  font-family: 'Montserrat', sans-serif;
+  width: 100px;
+  padding: 8px 15px;
+  color: #fff;
+  background-color: #99121c;
+  border: none;
+  border-radius: 10px;
+  align-self: flex-end;
+  cursor: pointer;
+}
+
+.button-enviar:hover {
+  color: #99121c;
+  background-color: #fff;
+  border: 2px solid #99121c;
+}
+
+.mapa {
+  width: 100%;
+  padding: 5%;
+  background-color: #d8d5d2;
+  display: flex;
+  justify-content: center;
+}
+
+.google-maps {
+  border: none;
+}

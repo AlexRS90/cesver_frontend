@@ -26,7 +26,7 @@ export default function Navbar() {
                   <Link href="/contacto"><li className="navbar-font">Contacto</li></Link>
               </ul>
           </li>
-          <li className="navbar-font">Aula Virtual</li>
+          <Link href="https://moodle.cesver.edu.mx/login/index.php" target="blank_"><li className="navbar-font">Aula Virtual</li></Link>
         </ul>
       </nav>
     </header>

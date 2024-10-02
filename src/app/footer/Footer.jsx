@@ -39,7 +39,7 @@ export default function Footer() {
           </p>
           <ul className="social-networks">
             <li>
-              <a href="https://wa.me/522291337977?text=Me%20podría%20brindar%20información%20por%20favor." target="_blank">
+              <a href="https://wa.me/522286152720?text=Me%20podría%20brindar%20información%20por%20favor." target="_blank">
                 <Image
                   src={whatsApp}
                   alt="What's App"

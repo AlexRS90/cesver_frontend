@@ -34,6 +34,7 @@
   border-radius: 10px;
   border: 2px solid #fff;
   cursor: pointer;
+  display: none;
 }
 
 .preinscripcion-button:hover {
